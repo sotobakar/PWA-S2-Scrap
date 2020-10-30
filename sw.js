@@ -1,6 +1,6 @@
 var CACHE_NAME = 'arsenal-v2';
 var urlsToCache = [
-  '.',
+  './',
   './index.html',
   './js/app.js',
   './js/materialize.min.js',
