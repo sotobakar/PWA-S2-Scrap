@@ -1,0 +1,15 @@
+AAAAFMYMIXc:APA91bEGybc5OmzIJ5pIsmL2zuNBzpFPuPF6pCFOjW5Moj1dN9hcCO96NfljXxy8Q4zK4v06Yv6I15lFXy1NncEKXlG-nq_XZwAy8jxEYvTTKkowQfYRUW-wH7HZvGN5wCzmvVzAcf9W
+
+Sender ID 
+89222029687
+curl "https://updates.push.services.mozilla.com/wpush/v1/gAAAAABfmmzZEVHEWcTRVipQIMoz9dGqz511RMUApFrmMIzHR3ZxVfAM3khNocT79EfOW3D8fqgwOgfMP7EAjXO-nrNzuPTj_vAXSOEPgla92h4led49G9UfvIUwXAuKsCf13v-aefAp" \
+--request POST --header "TTL: 60" --header "Content-Length: 0"
+
+curl "https://updates.push.services.mozilla.com/wpush/v1/gAAAAABfmmzZEVHEWcTRVipQIMoz9dGqz511RMUApFrmMIzHR3ZxVfAM3khNocT79EfOW3D8fqgwOgfMP7EAjXO-nrNzuPTj_vAXSOEPgla92h4led49G9UfvIUwXAuKsCf13v-aefAp" --request POST --header "TTL: 60" --header "Content-Length: 0" \
+
+curl "https://updates.push.services.mozilla.com/wpush/v1/gAAAAABfmmzZEVHEWcTRVipQIMoz9dGqz511RMUApFrmMIzHR3ZxVfAM3khNocT79EfOW3D8fqgwOgfMP7EAjXO-nrNzuPTj_vAXSOEPgla92h4led49G9UfvIUwXAuKsCf13v-aefAp" --request POST --header "TTL: 60" --header "Content-Length: 0" \
+--header "Authorization: key=AAAAFMYMIXc:APA91bEGybc5OmzIJ5pIsmL2zuNBzpFPuPF6pCFOjW5Moj1dN9hcCO96NfljXxy8Q4zK4v06Yv6I15lFXy1NncEKXlG-nq_XZwAy8jxEYvTTKkowQfYRUW-wH7HZvGN5wCzmvVzAcf9W"
+
+curl "https://updates.push.services.mozilla.com/wpush/v1/gAAAAABfmq5BQeCfExkXGeVlR-LJtwH3ElpUJdHWS8mqAXP4TXS9DGADiWK41LjiDZ2VdSBhl-7phf3xS6Qj01nxtoHZS0tYa2LxV8wwfThf6jCB-ZEZbzdPV91kgU-QiDi7fJzO0gp6" --request POST --header "TTL: 60" --header "Content-Length: 0"
+
+{"publicKey":"BLp41wpr2iaEqYfUIydozyf1J6DVBMrHcfQCi0IkKXVR-DFXa1oeOrTkruGpFJXXH7kbVCAxHBnEVDWYjyO3n1s","privateKey":"yiOurn65RS1RHlvKcichXxXsRRWkn5Moqiji1lnx8oA"}
