@@ -18,7 +18,7 @@ var urlsToCache = [
   './css/MaterialIcons-Regular.ttf',
   './js/db.js',
   './js/idb.js',
-  './js/reg.js',
+  './reg.js',
   './placeholder.png'
 ];
 self.addEventListener('install', function(event) {

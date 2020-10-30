@@ -6,7 +6,7 @@ document.querySelector('.subscribe').addEventListener("click", function () {
 async function regServiceWorker() {
   if ('serviceWorker' in navigator) {
     try {
-      let regis = await navigator.serviceWorker.register('../sw.js')
+      let regis = await navigator.serviceWorker.register('./sw.js')
   
       console.log('Registered:', regis);
 
