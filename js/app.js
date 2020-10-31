@@ -56,7 +56,7 @@ async function loadPage(page) {
         })
       })
     } catch (error) {
-      console.log(error.message);
+      console.log('players : ',error);
     }
   }else if ( page ===`schedules`) {
     let response = await fetch(`${base_url}/api/v1/json/1/eventsnextleague.php?id=4328`);
@@ -77,7 +77,7 @@ async function loadPage(page) {
         document.querySelector('.player').innerHTML +=`        <div class="col s12 m3">
         <div class="card red accent-4">
           <div style="width: 334px,height: 250px" class="card-image">
-            <img src="${player.strCutout}" alt="None">
+            <img crossorigin="anonymous" src="${player.strCutout}" alt="None">
             <a class="btn-floating halfway-fab waves-effect waves-light red p-${player.idPlayer}"><i class="material-icons">remove</i></a>
           </div>
           <div class="card-content">
