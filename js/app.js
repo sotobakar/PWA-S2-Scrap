@@ -39,7 +39,7 @@ async function loadPage(page) {
         <div class="col s12 m3">
           <div class="card red accent-4">
             <div style="width: 334px,height: 250px" class="card-image">
-              <img src="${player.strCutout}" alt="">
+              <img crossorigin="anonymous" src="${player.strCutout}" alt="">
               <a class="btn-floating halfway-fab waves-effect waves-light red p-${player.idPlayer}"><i class="material-icons">add</i></a>
             </div>
             <div class="card-content">
@@ -99,3 +99,6 @@ async function loadPage(page) {
   }
 }
 
+document.querySelector('.subscribe').addEventListener("click", function () {
+  Notification.requestPermission();
+});
